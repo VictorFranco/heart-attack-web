@@ -1,0 +1,12 @@
+.Header {
+  display: grid;
+  place-content: center;
+
+  height: 80px;
+  margin: 0;
+  background-color: #9456A2;
+
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
