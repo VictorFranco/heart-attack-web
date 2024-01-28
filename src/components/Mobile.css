@@ -1,8 +1,20 @@
 .Mobile {
   width: 225px;
   height: 500px;
-  box-shadow: 0 0 0 1px, 5px 5px 10px gray;
+
   border-radius: 10px;
   background: url(/mobile.jpg);
   background-size: cover;
+
+  box-shadow: 0 0 0 1px, 5px 5px 10px gray;
+}
+
+@media (width <= 900px) {
+
+  .Mobile {
+    width: 122px;
+    height: 250px;
+    margin: 40px;
+  }
+
 }

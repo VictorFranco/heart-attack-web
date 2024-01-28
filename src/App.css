@@ -24,3 +24,16 @@
 
   font-size: 22px;
 }
+
+@media (width <= 900px) {
+
+  .App main {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .App section {
+    width: 90%;
+  }
+
+}
