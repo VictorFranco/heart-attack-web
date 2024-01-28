@@ -1,6 +1,6 @@
 import './Title.css'
 
-function Title({ title }) {
+function Title({ title }: { title: String }) {
   return (
     <h2 className="Title">{ title }</h2>
   )
