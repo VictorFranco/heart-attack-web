@@ -4,6 +4,7 @@ import Mobile from './components/Mobile.tsx'
 import Description from './components/Description.tsx'
 import Developers from './components/Developers.tsx'
 import Acknowledgments from './components/Acknowledgments.tsx'
+import Advisors from './components/Advisors.tsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Description />
           <Developers />
           <Acknowledgments />
+          <Advisors />
         </section>
       </main>
     </div>
