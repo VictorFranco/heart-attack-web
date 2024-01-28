@@ -8,7 +8,7 @@ function Advisors() {
       <Title title="Asesores"/>
       <ul>
         {
-          advisors.map(advisor => <li>{advisor}</li>)
+          advisors.map((advisor, index) => <li key={index}>{advisor}</li>)
         }
       </ul>
     </div>
