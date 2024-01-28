@@ -6,3 +6,6 @@
 Heart Attack landing page.
 
 ![Landing page](https://i.imgur.com/X4mZRs8.png)
+
+## LICENSE
+[Apache-2.0](LICENSE)
